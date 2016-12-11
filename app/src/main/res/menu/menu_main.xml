@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ajay.com.mypsdstrength.MainActivity">
+    <item
+        android:id="@+id/action_about"
+        android:icon="@drawable/developer"
+        android:title="About us"
+        android:orderInCategory="100"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_req"
+        android:icon="@drawable/attractions"
+        android:title="Requirements"
+        android:orderInCategory="100"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_refresh"
+        android:icon="@drawable/refresh"
+        android:title="Refresh"
+        android:orderInCategory="100"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_exit"
+        android:icon="@drawable/exit"
+        android:title="Exit"
+        android:orderInCategory="100"
+        app:showAsAction="always"/>
+</menu>
